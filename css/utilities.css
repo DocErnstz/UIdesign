@@ -1,0 +1,50 @@
+h1{
+    color: white;
+    line-height: 1.2;
+    margin: 10px 0;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1110px;
+    overflow: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btn {
+    display: inline-block;
+    justify-content: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+
+.btn-outline{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.grid{
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    align-items: center;
+    gap: 10px;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    height: 80%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}

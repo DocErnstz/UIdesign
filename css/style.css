@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+@import "navbar.css";
+@import "showcase.css";
+@import "utilities.css";
+
 :root {
   --primary-color: #047aed;
   --secondary-color: #1c3fa8;
@@ -22,34 +26,10 @@ body{
     padding: 0;
 }
 
-li a {
-    text-decoration: none;
-    padding: 10px;
-    margin: 0 10px;
-    color: aliceblue;
-}
-li a:hover{
-    border-bottom: 1px solid white;
-}
 
-nav ul {
-    display: flex;
-    list-style-type: none;
 
-}
-h1{
-    color: white;
-    line-height: 50px;
-}
-.navbar {
-    background-color: var(--primary-color);
-    line-height: 80px;
-}
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1110px;
-}
+
+
+
+
