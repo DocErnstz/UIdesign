@@ -1,0 +1,22 @@
+footer{
+    background-color:var(--dark-color);
+    padding: 60px 100px;
+    margin-top: 50px;
+}
+
+footer p{
+    color: #fff;
+}
+
+footer .container div:not(.social){
+    text-align: left;
+ }
+
+.social{
+    width: 70%;
+}
+
+.social i{
+    color: #fff;
+    margin: 0px 10px;
+}

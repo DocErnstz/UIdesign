@@ -9,6 +9,7 @@
 @import "cli.css";
 @import "cloud.css";
 @import "languages.css";
+@import "footer.css";
 
 :root {
   --primary-color: #047aed;

@@ -13,6 +13,7 @@
 .cloud .read a{
     text-decoration: none;
     color: #fff;
-    background: blue;
-    border: 1px solid blue;
+    background:var(--dark-color);
+    border: none;
 }
+
