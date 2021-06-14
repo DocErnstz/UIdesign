@@ -15,6 +15,7 @@
 }
 .container .showcase-text{
     color: white;
+    animation: left-to-right 1s ease-in-out;
 }
 
 .showcase-text p{
@@ -28,6 +29,7 @@
     z-index: 100;
     right: 90px;
     height: 350px;
+    animation: right-to-left 1s ease-in-out;
 }
 form{
     width: 300px;
@@ -44,6 +46,7 @@ form{
     width: 100%;
     font-size: 16px;
     margin: 1px 0;
+    padding: 5px 0px;
     border-bottom:  1px solid grey;
 }
 .showcase-form input:focus{
@@ -71,4 +74,21 @@ form{
     height: 100px;
     background: #fff;
     transform: skewY(-3deg);
+}
+
+@keyframes left-to-right {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes right-to-left {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
