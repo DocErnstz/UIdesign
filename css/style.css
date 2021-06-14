@@ -5,6 +5,10 @@
 @import "navbar.css";
 @import "showcase.css";
 @import "utilities.css";
+@import "stats.css";
+@import "cli.css";
+@import "cloud.css";
+@import "languages.css";
 
 :root {
   --primary-color: #047aed;
@@ -19,6 +23,11 @@ body{
     font-family: 'Lato', sans-serif;
     color: #333;
     line-height: 1.6;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: lighter;
 }
 *{
    

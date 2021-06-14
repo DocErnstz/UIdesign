@@ -1,0 +1,18 @@
+.cli .grid img{
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.cli .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.cli .card{
+    height: 20%;
+    padding: 30px 20px;
+}
