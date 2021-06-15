@@ -4,6 +4,12 @@ footer{
     margin-top: 50px;
 }
 
+
+footer li a{
+   padding: 0;
+   margin: 10px 0px; 
+   
+}
 footer p{
     color: #fff;
 }
@@ -13,10 +19,18 @@ footer .container div:not(.social){
  }
 
 .social{
-    width: 70%;
+    display: inline-block;
+    flex-wrap: nowrap;
+    justify-self: flex-start;
+   
 }
 
 .social i{
     color: #fff;
     margin: 0px 10px;
+}
+
+
+footer ul{
+    flex-direction: column;
 }

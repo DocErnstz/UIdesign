@@ -15,3 +15,6 @@
 .lg .card:hover{
     transform: translateY(-10%);
 }
+.languages .flex{
+    justify-content: center;
+}

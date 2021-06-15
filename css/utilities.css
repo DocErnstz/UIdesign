@@ -10,12 +10,13 @@ h1{
     margin: 0 auto;
     max-width: 1110px;
     overflow: auto;
-    padding: 0 40px;
+    padding: 0px 40px;
 }
 .flex{
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-content: center;
 }
 
 
@@ -39,15 +40,15 @@ h1{
     display: grid;
     grid-template-columns: 55% auto;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
     height: 100%;
 }
 .card{
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    width: 70%;
-    height: 80%;
+    margin: 20px 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
 }
 

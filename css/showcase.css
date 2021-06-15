@@ -24,11 +24,14 @@
 
 .showcase-form{
     position: relative;
-    justify-self: flex-end;
+    
     top: 60px;
     z-index: 100;
-    right: 90px;
+    right: 0px;
     height: 350px;
+    width: 400px;
+    padding: 40px;
+    justify-self: flex-end;
     animation: right-to-left 1s ease-in-out;
 }
 form{
